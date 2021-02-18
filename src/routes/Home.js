@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import {dbService} from "../fbase";
+import {dbService, storageService} from 'fbase';
+import Nweet from 'components/Nweet';
+import {v4 as uuidv4} from 'uuid';
+import NweetFactory from "../components/NweetFactory";
 
 const Home = ({userObj}) => {
-    const [nweet, setNweet] = useState('');
     const [nweets, setNweets] = useState([]);
-
     useEffect(() => {
+        // 데이터베이스 변경이 있을 경우 알림을 받는 onSnapshot 메서드(실시간 반응)
         dbService.collection('nweets').onSnapshot(snapshot => {
             const nweetArray = snapshot.docs.map(doc => ({
                 id: doc.id,
@@ -14,32 +16,16 @@ const Home = ({userObj}) => {
             setNweets(nweetArray);
         });
     }, [])
-    const onSubmit = async (e) => {
-        e.preventDefault();
-        await dbService.collection("nweets").add({
-            text: nweet,
-            createAt: Date.now(),
-            creatorId: userObj.uid,
-        });
-        setNweet('');
-    }
-    const onChange = e => {
-        const {
-            target: {value},
-        } = e;
-        setNweet(value);
-    };
+
     return (
-        <div>
-            <form onSubmit={onSubmit}>
-                <input value={nweet} onChange={onChange} type="text" placeholder="What's on your mind?"
-                       maxLength={120}/>
-                <input type="submit" value="Nweet"/>
-            </form>
-            <div>
-                {nweets.map(nweet => <div key={nweet.id}>
-                    <h4>{nweet.text}</h4>
-                </div>)}
+        <div className="container">
+            <NweetFactory userObj={userObj}/>
+            <div style={{ marginTop: 30 }}>
+                {nweets.map(nweet => (
+                    <Nweet key={nweet.id}
+                           nweetObj={nweet}
+                           isOwner={nweet.creatorId === userObj.uid}/>
+                ))}
             </div>
         </div>
     )
