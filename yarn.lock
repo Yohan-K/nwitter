@@ -1434,6 +1434,51 @@
   "resolved" "https://registry.npmjs.org/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.4.1.tgz"
   "version" "0.4.1"
 
+"@fortawesome/fontawesome-common-types@^0.2.34":
+  "integrity" "sha512-XcIn3iYbTEzGIxD0/dY5+4f019jIcEIWBiHc3KrmK/ROahwxmZ/s+tdj97p/5K0klz4zZUiMfUlYP0ajhSJjmA=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.34.tgz"
+  "version" "0.2.34"
+
+"@fortawesome/fontawesome-free@^5.14.0":
+  "integrity" "sha512-7l/AX41m609L/EXI9EKH3Vs3v0iA8tKlIOGtw+kgcoanI7p+e4I4GYLqW3UXWiTnjSFymKSmTTPKYrivzbxxqA=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.2.tgz"
+  "version" "5.15.2"
+
+"@fortawesome/fontawesome-svg-core@^1.2.30", "@fortawesome/fontawesome-svg-core@^1.2.32":
+  "integrity" "sha512-0KNN0nc5eIzaJxlv43QcDmTkDY1CqeN6J7OCGSs+fwGPdtv0yOQqRjieopBCmw+yd7uD3N2HeNL3Zm5isDleLg=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.34.tgz"
+  "version" "1.2.34"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-brands-svg-icons@^5.14.0":
+  "integrity" "sha512-YPlVjE1cEO+OJ9I9ay3TQ3I88+XkxMTYwnnddqAboxLhPNGncsHV0DjWOVLCyuAY66yPfyndWwVn4v7vuqsO1g=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.15.2.tgz"
+  "version" "5.15.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-regular-svg-icons@^5.14.0":
+  "integrity" "sha512-Uv5NQCYjyisNVTu/1Xjs+z8vwQjbfT6hiqYvQNfF0n8qdgfWLM581bAfVMQ3BCs1SPy+eEUKNcGkK4n0FihFHg=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.15.2.tgz"
+  "version" "5.15.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/free-solid-svg-icons@^5.14.0":
+  "integrity" "sha512-ZfCU+QjaFsdNZmOGmfqEWhzI3JOe37x5dF4kz9GeXvKn/sTxhqMtZ7mh3lBf76SvcYY5/GKFuyG7p1r4iWMQqw=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.2.tgz"
+  "version" "5.15.2"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.34"
+
+"@fortawesome/react-fontawesome@^0.1.11":
+  "integrity" "sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA=="
+  "resolved" "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.14.tgz"
+  "version" "0.1.14"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "@grpc/grpc-js@^1.0.0":
   "integrity" "sha512-hBkR/vZTodu/dA/kcKpiQtPQdjMbpfKv7RKfEByT5/7qOQNpIh2O6Sr1aldLMzstFqmGrufmR7XTc56VCMH7LA=="
   "resolved" "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.2.7.tgz"
@@ -2719,7 +2764,7 @@
 
 "array-union@^1.0.1":
   "integrity" "sha1-mjRBDk9OPaI96jdb5b5w8kd47Dk="
-  "resolved" "https://registry.yarnpkg.com/array-union/-/array-union-1.0.2.tgz"
+  "resolved" "https://registry.npmjs.org/array-union/-/array-union-1.0.2.tgz"
   "version" "1.0.2"
   dependencies:
     "array-uniq" "^1.0.1"
@@ -2823,7 +2868,7 @@
   "resolved" "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz"
   "version" "1.0.1"
 
-"async@^2.6.2":
+"async@^2.6.1", "async@^2.6.2":
   "integrity" "sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg=="
   "resolved" "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz"
   "version" "2.6.3"
@@ -3761,7 +3806,7 @@
   dependencies:
     "delayed-stream" "~1.0.0"
 
-"commander@^2.20.0":
+"commander@^2.18.0", "commander@^2.20.0":
   "integrity" "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
   "resolved" "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz"
   "version" "2.20.3"
@@ -4698,6 +4743,11 @@
     "minimalistic-assert" "^1.0.1"
     "minimalistic-crypto-utils" "^1.0.1"
 
+"email-addresses@^3.0.1":
+  "integrity" "sha512-k0/r7GrWVL32kZlGwfPNgB2Y/mMXVTq/decgLczm/j34whdaspNrZO8CnXPf1laaHxI6ptUlsnAxN+UAPw+fzg=="
+  "resolved" "https://registry.npmjs.org/email-addresses/-/email-addresses-3.1.0.tgz"
+  "version" "3.1.0"
+
 "emittery@^0.7.1":
   "integrity" "sha512-A8OG5SR/ij3SsJdWDJdkkSYUjQdCUx6APQXem0SaEePBSRg4eymGYwBkKo1Y6DU+af/Jn2dBQqDBvjnr9Vi8nQ=="
   "resolved" "https://registry.yarnpkg.com/emittery/-/emittery-0.7.2.tgz"
@@ -4868,6 +4918,11 @@
   "integrity" "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
   "resolved" "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz"
   "version" "1.0.3"
+
+"escape-string-regexp@^1.0.2":
+  "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
+  "resolved" "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz"
+  "version" "1.0.5"
 
 "escape-string-regexp@^1.0.5":
   "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
@@ -5419,6 +5474,28 @@
     "loader-utils" "^2.0.0"
     "schema-utils" "^3.0.0"
 
+"filename-reserved-regex@^1.0.0":
+  "integrity" "sha1-5hz4BfDeHJhFZ9A4bcXfUO5a9+Q="
+  "resolved" "https://registry.npmjs.org/filename-reserved-regex/-/filename-reserved-regex-1.0.0.tgz"
+  "version" "1.0.0"
+
+"filenamify-url@^1.0.0":
+  "integrity" "sha1-syvYExnvWGO3MHi+1Q9GpPeXX1A="
+  "resolved" "https://registry.npmjs.org/filenamify-url/-/filenamify-url-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "filenamify" "^1.0.0"
+    "humanize-url" "^1.0.0"
+
+"filenamify@^1.0.0":
+  "integrity" "sha1-qfL/0RxQO+0wABUCknI3jx8TZaU="
+  "resolved" "https://registry.npmjs.org/filenamify/-/filenamify-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "filename-reserved-regex" "^1.0.0"
+    "strip-outer" "^1.0.0"
+    "trim-repeated" "^1.0.0"
+
 "filesize@6.1.0":
   "integrity" "sha512-LpCHtPQ3sFx67z+uh2HnSyWSLLu5Jxo21795uRDuar/EOuYWXib5EmPaGIBuSnRqH2IODiKA2k5re/K9OnN/Yg=="
   "resolved" "https://registry.yarnpkg.com/filesize/-/filesize-6.1.0.tgz"
@@ -5743,6 +5820,19 @@
   dependencies:
     "assert-plus" "^1.0.0"
 
+"gh-pages@^3.1.0":
+  "integrity" "sha512-3b1rly9kuf3/dXsT8+ZxP0UhNLOo1CItj+3e31yUVcaph/yDsJ9RzD7JOw5o5zpBTJVQLlJAASNkUfepi9fe2w=="
+  "resolved" "https://registry.npmjs.org/gh-pages/-/gh-pages-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "async" "^2.6.1"
+    "commander" "^2.18.0"
+    "email-addresses" "^3.0.1"
+    "filenamify-url" "^1.0.0"
+    "find-cache-dir" "^3.3.1"
+    "fs-extra" "^8.1.0"
+    "globby" "^6.1.0"
+
 "glob-parent@^3.1.0":
   "integrity" "sha1-nmr2KZ2NO9K9QEMIMr0RPfkGxa4="
   "resolved" "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz"
@@ -5812,7 +5902,7 @@
 
 "globby@^6.1.0":
   "integrity" "sha1-9abXDoOV4hyFj7BInWTfAkJNUGw="
-  "resolved" "https://registry.yarnpkg.com/globby/-/globby-6.1.0.tgz"
+  "resolved" "https://registry.npmjs.org/globby/-/globby-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
     "array-union" "^1.0.1"
@@ -6192,6 +6282,14 @@
   "integrity" "sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw=="
   "resolved" "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz"
   "version" "1.1.1"
+
+"humanize-url@^1.0.0":
+  "integrity" "sha1-9KuZ4NKIF0yk4eUEB8VfuuRk7/8="
+  "resolved" "https://registry.npmjs.org/humanize-url/-/humanize-url-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "normalize-url" "^1.0.0"
+    "strip-url-auth" "^1.0.0"
 
 "iconv-lite@0.4.24":
   "integrity" "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA=="
@@ -8165,12 +8263,7 @@
   "resolved" "https://registry.yarnpkg.com/normalize-range/-/normalize-range-0.1.2.tgz"
   "version" "0.1.2"
 
-"normalize-url@^3.0.0":
-  "integrity" "sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg=="
-  "resolved" "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz"
-  "version" "3.3.0"
-
-"normalize-url@1.9.1":
+"normalize-url@^1.0.0", "normalize-url@1.9.1":
   "integrity" "sha1-LMDWazHqIwNkWENuNiDYWVTGbDw="
   "resolved" "https://registry.yarnpkg.com/normalize-url/-/normalize-url-1.9.1.tgz"
   "version" "1.9.1"
@@ -8179,6 +8272,11 @@
     "prepend-http" "^1.0.0"
     "query-string" "^4.1.0"
     "sort-keys" "^1.0.0"
+
+"normalize-url@^3.0.0":
+  "integrity" "sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg=="
+  "resolved" "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz"
+  "version" "3.3.0"
 
 "npm-run-path@^2.0.0":
   "integrity" "sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8="
@@ -9853,7 +9951,7 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^17.0.1", "react@>= 16", "react@>=15", "react@17.0.1":
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^17.0.1", "react@>= 16", "react@>=15", "react@>=16.x", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
@@ -11129,6 +11227,18 @@
   "resolved" "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   "version" "3.1.1"
 
+"strip-outer@^1.0.0":
+  "integrity" "sha512-k55yxKHwaXnpYGsOzg4Vl8+tDrWylxDEpknGjhTiZB8dFRU5rTo9CAzeycivxV3s+zlTKwrs6WxMxR95n26kwg=="
+  "resolved" "https://registry.npmjs.org/strip-outer/-/strip-outer-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "escape-string-regexp" "^1.0.2"
+
+"strip-url-auth@^1.0.0":
+  "integrity" "sha1-IrD6OkE4WzO+PzMVUbu4N/oM164="
+  "resolved" "https://registry.npmjs.org/strip-url-auth/-/strip-url-auth-1.0.1.tgz"
+  "version" "1.0.1"
+
 "style-loader@1.3.0":
   "integrity" "sha512-V7TCORko8rs9rIqkSrlMfkqA63DfoGBBJmK1kKGCcSi+BWb4cqz0SRsnp4l6rU5iwOEd0/2ePv68SV22VXon4Q=="
   "resolved" "https://registry.yarnpkg.com/style-loader/-/style-loader-1.3.0.tgz"
@@ -11430,6 +11540,13 @@
   "version" "2.0.2"
   dependencies:
     "punycode" "^2.1.1"
+
+"trim-repeated@^1.0.0":
+  "integrity" "sha1-42RqLqTokTEr9+rObPsFOAvAHCE="
+  "resolved" "https://registry.npmjs.org/trim-repeated/-/trim-repeated-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "escape-string-regexp" "^1.0.2"
 
 "tryer@^1.0.1":
   "integrity" "sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA=="
